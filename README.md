@@ -20,14 +20,14 @@ Here are some screenshots from the game:
 ### Secret Room
 ![Secret Room](screenshots/secret-room.png)
 
-## 🎬 Gameplay Videos
+## 🎮 Gameplay Demo
 
-Watch the gameplay demonstrations:
+Watch the gameplay videos:
 
-- [Full Gameplay Video](screenshots/gameplay.mp4)
-- [Boss Fight Video](screenshots/boss-fight.mp4)
-- [Short Gameplay Preview](screenshots/gameplay-preview.mp4)
-
+- [▶ Gameplay Video](screenshots/gameplay-gif.mp4)
+- [⚔️ Boss Fight](screenshots/boss-fight.mp4)
+- [🗺️ Game Exploration](screenshots/game-paly.mp4)
+- 
 ## ✨ Features
 
 - 2D gameplay inspired by Hollow Knight
