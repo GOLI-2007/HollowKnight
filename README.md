@@ -4,7 +4,9 @@ A 2D game simulation inspired by **Hollow Knight**, developed in Java using the 
 
 This project recreates parts of the Hollow Knight experience, featuring custom game environments, player interactions, combat encounters, and a game interface inspired by the original game.
 
-## 🎮 Game Screenshots
+## 🎮 Screenshots
+
+Here are some screenshots from the game:
 
 ### Main Menu
 ![Main Menu](screenshots/main-menu.png)
@@ -18,11 +20,13 @@ This project recreates parts of the Hollow Knight experience, featuring custom g
 ### Secret Room
 ![Secret Room](screenshots/secret-room.png)
 
-## 🎥 Gameplay Demo
+## 🎬 Gameplay Videos
 
-Watch the gameplay video to see the game in action:
+Watch the gameplay demonstrations:
 
-[▶ Watch Gameplay Video](screenshots/gameplay.mp4)
+- [Full Gameplay Video](screenshots/gameplay.mp4)
+- [Boss Fight Video](screenshots/boss-fight.mp4)
+- [Short Gameplay Preview](screenshots/gameplay-preview.mp4)
 
 ## ✨ Features
 
