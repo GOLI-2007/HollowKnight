@@ -1,33 +1,76 @@
-# HollowKnight
+# Hollow Knight – 2D Game Simulation
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+A 2D game project inspired by **Hollow Knight**, developed using Java and the LibGDX framework.
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+This project recreates elements of the original Hollow Knight experience, focusing on game mechanics, player interactions, visual design, and user interface.
 
-## Platforms
+## 🎮 Gameplay
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+Here are some screenshots from the game:
 
-## Gradle
+![Main Menu](screenshots/main-menu.png)
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+![Gameplay](screenshots/gameplay.png)
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+![Inventory](screenshots/inventory.png)
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+## 🎥 Gameplay Demo
+
+Watch a short gameplay preview:
+
+![Gameplay Demo](screenshots/gameplay.gif)
+
+[Watch Full Gameplay Video](screenshots/gameplay.mp4)
+
+## ✨ Features
+
+- 2D gameplay inspired by Hollow Knight
+- Player movement and game interactions
+- Inventory system
+- Charm selection and equipment system
+- Save and load functionality
+- Settings menu with different configuration options
+- Custom game UI and visual elements
+
+## 🛠️ Technologies
+
+- **Programming Language:** Java
+- **Game Framework:** LibGDX
+- **Build System:** Gradle
+- **IDE:** IntelliJ IDEA
+
+## 📂 Project Structure
+
+- `core/` – Main game logic and functionality
+- `assets/` – Game resources, sprites, textures, and audio
+- `lwjgl3/` – Desktop launcher
+- `saves/` – Game save files
+- `screenshots/` – Project screenshots and gameplay previews
+
+## 🚀 How to Run
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_GITHUB_REPOSITORY_URL
+   ```
+
+2. Open the project in IntelliJ IDEA.
+
+3. Wait for Gradle to finish syncing.
+
+4. Run the desktop launcher.
+
+   Alternatively, on Windows, use:
+
+   ```bash
+   gradlew.bat lwjgl3:run
+   ```
+
+## 👩‍💻 Developer
+
+Developed as a Java game development project.
+
+---
+
+*This is an independent fan-inspired project and is not affiliated with Team Cherry.*
