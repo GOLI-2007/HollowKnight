@@ -1,33 +1,86 @@
-# HollowKnight
+# Hollow Knight – 2D Game Simulation
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+A 2D game simulation inspired by **Hollow Knight**, developed in Java using the **LibGDX** framework.
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+This project recreates parts of the Hollow Knight experience, featuring custom game environments, player interactions, combat encounters, and a game interface inspired by the original game.
 
-## Platforms
+## 🎮 Game Screenshots
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+### Main Menu
+![Main Menu](screenshots/main-menu.png)
 
-## Gradle
+### Boss Room
+![Boss Room](screenshots/boss-room.png)
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+### Boss Fight
+![Boss Fight](screenshots/boss-fight.png)
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+### Secret Room
+![Secret Room](screenshots/secret-room.png)
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+## 🎥 Gameplay Demo
+
+Watch the gameplay video to see the game in action:
+
+[▶ Watch Gameplay Video](screenshots/gameplay.mp4)
+
+## ✨ Features
+
+- 2D gameplay inspired by Hollow Knight
+- Custom-designed game environments
+- Player movement and combat mechanics
+- Boss encounter and exploration areas
+- Inventory and charm management system
+- Save and load functionality
+- Settings and user interface
+
+## 🛠️ Built With
+
+- **Java** – Main programming language
+- **LibGDX** – Game development framework
+- **Gradle** – Build automation
+
+## 📁 Project Structure
+
+| Directory | Description |
+|---|---|
+| `core/` | Main game logic and functionality |
+| `assets/` | Sprites, textures, and audio resources |
+| `lwjgl3/` | Desktop launcher |
+| `saves/` | Game save files |
+| `screenshots/` | Screenshots and gameplay video |
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Java JDK
+- IntelliJ IDEA (recommended)
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/GOLI-2007/HollowKnight.git
+   ```
+
+2. Open the project in IntelliJ IDEA.
+
+3. Allow Gradle to sync the project.
+
+4. Run the desktop launcher.
+
+   On Windows, you can also use:
+
+   ```bash
+   gradlew.bat lwjgl3:run
+   ```
+
+## 👩‍💻 About
+
+This project was developed as a Java game development project, inspired by the world and gameplay of Hollow Knight.
+
+---
+
+*This is an independent fan-made project and is not affiliated with Team Cherry.*
