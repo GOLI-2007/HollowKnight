@@ -13,8 +13,6 @@ public class Inventory {
     private int usedNotches;
 
     private Inventory() {
-        geo = 542;
-
         maxNotches = 3;
         usedNotches = 0;
 
